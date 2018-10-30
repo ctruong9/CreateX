@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F69883912188C6EA001F77ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883902188C6EA001F77ED /* AppDelegate.swift */; };
+		F69883932188C6EA001F77ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883922188C6EA001F77ED /* ViewController.swift */; };
+		F69883962188C6EA001F77ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69883942188C6EA001F77ED /* Main.storyboard */; };
+		F69883992188C6EA001F77ED /* Tatl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F69883972188C6EA001F77ED /* Tatl.xcdatamodeld */; };
+		F698839B2188C6EC001F77ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F698839A2188C6EC001F77ED /* Assets.xcassets */; };
+		F698839E2188C6EC001F77ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F698839C2188C6EC001F77ED /* LaunchScreen.storyboard */; };
+		F69883A92188C6EC001F77ED /* TatlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883A82188C6EC001F77ED /* TatlTests.swift */; };
+		F69883B42188C6EC001F77ED /* TatlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883B32188C6EC001F77ED /* TatlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69883A52188C6EC001F77ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69883852188C6EA001F77ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F698838C2188C6EA001F77ED;
+			remoteInfo = Tatl;
+		};
+		F69883B02188C6EC001F77ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69883852188C6EA001F77ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F698838C2188C6EA001F77ED;
+			remoteInfo = Tatl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F698838D2188C6EA001F77ED /* Tatl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tatl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69883902188C6EA001F77ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F69883922188C6EA001F77ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F69883952188C6EA001F77ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69883982188C6EA001F77ED /* Tatl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tatl.xcdatamodel; sourceTree = "<group>"; };
+		F698839A2188C6EC001F77ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F698839D2188C6EC001F77ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F698839F2188C6EC001F77ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69883A42188C6EC001F77ED /* TatlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69883A82188C6EC001F77ED /* TatlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatlTests.swift; sourceTree = "<group>"; };
+		F69883AA2188C6EC001F77ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69883AF2188C6EC001F77ED /* TatlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69883B32188C6EC001F77ED /* TatlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatlUITests.swift; sourceTree = "<group>"; };
+		F69883B52188C6EC001F77ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F698838A2188C6EA001F77ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69883A12188C6EC001F77ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69883AC2188C6EC001F77ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69883842188C6EA001F77ED = {
+			isa = PBXGroup;
+			children = (
+				F698838F2188C6EA001F77ED /* Tatl */,
+				F69883A72188C6EC001F77ED /* TatlTests */,
+				F69883B22188C6EC001F77ED /* TatlUITests */,
+				F698838E2188C6EA001F77ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F698838E2188C6EA001F77ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F698838D2188C6EA001F77ED /* Tatl.app */,
+				F69883A42188C6EC001F77ED /* TatlTests.xctest */,
+				F69883AF2188C6EC001F77ED /* TatlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F698838F2188C6EA001F77ED /* Tatl */ = {
+			isa = PBXGroup;
+			children = (
+				F69883902188C6EA001F77ED /* AppDelegate.swift */,
+				F69883922188C6EA001F77ED /* ViewController.swift */,
+				F69883942188C6EA001F77ED /* Main.storyboard */,
+				F698839A2188C6EC001F77ED /* Assets.xcassets */,
+				F698839C2188C6EC001F77ED /* LaunchScreen.storyboard */,
+				F698839F2188C6EC001F77ED /* Info.plist */,
+				F69883972188C6EA001F77ED /* Tatl.xcdatamodeld */,
+			);
+			path = Tatl;
+			sourceTree = "<group>";
+		};
+		F69883A72188C6EC001F77ED /* TatlTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69883A82188C6EC001F77ED /* TatlTests.swift */,
+				F69883AA2188C6EC001F77ED /* Info.plist */,
+			);
+			path = TatlTests;
+			sourceTree = "<group>";
+		};
+		F69883B22188C6EC001F77ED /* TatlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69883B32188C6EC001F77ED /* TatlUITests.swift */,
+				F69883B52188C6EC001F77ED /* Info.plist */,
+			);
+			path = TatlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F698838C2188C6EA001F77ED /* Tatl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69883B82188C6EC001F77ED /* Build configuration list for PBXNativeTarget "Tatl" */;
+			buildPhases = (
+				F69883892188C6EA001F77ED /* Sources */,
+				F698838A2188C6EA001F77ED /* Frameworks */,
+				F698838B2188C6EA001F77ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tatl;
+			productName = Tatl;
+			productReference = F698838D2188C6EA001F77ED /* Tatl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69883A32188C6EC001F77ED /* TatlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69883BB2188C6EC001F77ED /* Build configuration list for PBXNativeTarget "TatlTests" */;
+			buildPhases = (
+				F69883A02188C6EC001F77ED /* Sources */,
+				F69883A12188C6EC001F77ED /* Frameworks */,
+				F69883A22188C6EC001F77ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69883A62188C6EC001F77ED /* PBXTargetDependency */,
+			);
+			name = TatlTests;
+			productName = TatlTests;
+			productReference = F69883A42188C6EC001F77ED /* TatlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69883AE2188C6EC001F77ED /* TatlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69883BE2188C6EC001F77ED /* Build configuration list for PBXNativeTarget "TatlUITests" */;
+			buildPhases = (
+				F69883AB2188C6EC001F77ED /* Sources */,
+				F69883AC2188C6EC001F77ED /* Frameworks */,
+				F69883AD2188C6EC001F77ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69883B12188C6EC001F77ED /* PBXTargetDependency */,
+			);
+			name = TatlUITests;
+			productName = TatlUITests;
+			productReference = F69883AF2188C6EC001F77ED /* TatlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69883852188C6EA001F77ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Chris Truong";
+				TargetAttributes = {
+					F698838C2188C6EA001F77ED = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F69883A32188C6EC001F77ED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F698838C2188C6EA001F77ED;
+					};
+					F69883AE2188C6EC001F77ED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F698838C2188C6EA001F77ED;
+					};
+				};
+			};
+			buildConfigurationList = F69883882188C6EA001F77ED /* Build configuration list for PBXProject "Tatl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69883842188C6EA001F77ED;
+			productRefGroup = F698838E2188C6EA001F77ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F698838C2188C6EA001F77ED /* Tatl */,
+				F69883A32188C6EC001F77ED /* TatlTests */,
+				F69883AE2188C6EC001F77ED /* TatlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F698838B2188C6EA001F77ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F698839E2188C6EC001F77ED /* LaunchScreen.storyboard in Resources */,
+				F698839B2188C6EC001F77ED /* Assets.xcassets in Resources */,
+				F69883962188C6EA001F77ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69883A22188C6EC001F77ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69883AD2188C6EC001F77ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69883892188C6EA001F77ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69883932188C6EA001F77ED /* ViewController.swift in Sources */,
+				F69883912188C6EA001F77ED /* AppDelegate.swift in Sources */,
+				F69883992188C6EA001F77ED /* Tatl.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69883A02188C6EC001F77ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69883A92188C6EC001F77ED /* TatlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69883AB2188C6EC001F77ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69883B42188C6EC001F77ED /* TatlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69883A62188C6EC001F77ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F698838C2188C6EA001F77ED /* Tatl */;
+			targetProxy = F69883A52188C6EC001F77ED /* PBXContainerItemProxy */;
+		};
+		F69883B12188C6EC001F77ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F698838C2188C6EA001F77ED /* Tatl */;
+			targetProxy = F69883B02188C6EC001F77ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69883942188C6EA001F77ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69883952188C6EA001F77ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F698839C2188C6EC001F77ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F698839D2188C6EC001F77ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69883B62188C6EC001F77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F69883B72188C6EC001F77ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69883B92188C6EC001F77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYHGKKDCT;
+				INFOPLIST_FILE = Tatl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chris.Truong.Tatl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F69883BA2188C6EC001F77ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYHGKKDCT;
+				INFOPLIST_FILE = Tatl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chris.Truong.Tatl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F69883BC2188C6EC001F77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYHGKKDCT;
+				INFOPLIST_FILE = TatlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chris.Truong.TatlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tatl.app/Tatl";
+			};
+			name = Debug;
+		};
+		F69883BD2188C6EC001F77ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYHGKKDCT;
+				INFOPLIST_FILE = TatlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chris.Truong.TatlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tatl.app/Tatl";
+			};
+			name = Release;
+		};
+		F69883BF2188C6EC001F77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYHGKKDCT;
+				INFOPLIST_FILE = TatlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chris.Truong.TatlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tatl;
+			};
+			name = Debug;
+		};
+		F69883C02188C6EC001F77ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYHGKKDCT;
+				INFOPLIST_FILE = TatlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chris.Truong.TatlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tatl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69883882188C6EA001F77ED /* Build configuration list for PBXProject "Tatl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69883B62188C6EC001F77ED /* Debug */,
+				F69883B72188C6EC001F77ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69883B82188C6EC001F77ED /* Build configuration list for PBXNativeTarget "Tatl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69883B92188C6EC001F77ED /* Debug */,
+				F69883BA2188C6EC001F77ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69883BB2188C6EC001F77ED /* Build configuration list for PBXNativeTarget "TatlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69883BC2188C6EC001F77ED /* Debug */,
+				F69883BD2188C6EC001F77ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69883BE2188C6EC001F77ED /* Build configuration list for PBXNativeTarget "TatlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69883BF2188C6EC001F77ED /* Debug */,
+				F69883C02188C6EC001F77ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F69883972188C6EA001F77ED /* Tatl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F69883982188C6EA001F77ED /* Tatl.xcdatamodel */,
+			);
+			currentVersion = F69883982188C6EA001F77ED /* Tatl.xcdatamodel */;
+			path = Tatl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F69883852188C6EA001F77ED /* Project object */;
+}
