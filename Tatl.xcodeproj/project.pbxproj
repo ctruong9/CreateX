@@ -15,6 +15,9 @@
 		F698839E2188C6EC001F77ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F698839C2188C6EC001F77ED /* LaunchScreen.storyboard */; };
 		F69883A92188C6EC001F77ED /* TatlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883A82188C6EC001F77ED /* TatlTests.swift */; };
 		F69883B42188C6EC001F77ED /* TatlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883B32188C6EC001F77ED /* TatlUITests.swift */; };
+		F69883C22188C801001F77ED /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883C12188C801001F77ED /* PersistenceService.swift */; };
+		F6DCE80F219A13D900B82BD6 /* ViolationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCE80E219A13D900B82BD6 /* ViolationsViewController.swift */; };
+		F6DCE811219A141C00B82BD6 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCE810219A141C00B82BD6 /* TransferViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F69883AF2188C6EC001F77ED /* TatlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69883B32188C6EC001F77ED /* TatlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatlUITests.swift; sourceTree = "<group>"; };
 		F69883B52188C6EC001F77ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69883C12188C801001F77ED /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		F6DCE80E219A13D900B82BD6 /* ViolationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolationsViewController.swift; sourceTree = "<group>"; };
+		F6DCE810219A141C00B82BD6 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				F69883902188C6EA001F77ED /* AppDelegate.swift */,
+				F69883C12188C801001F77ED /* PersistenceService.swift */,
 				F69883922188C6EA001F77ED /* ViewController.swift */,
+				F6DCE80E219A13D900B82BD6 /* ViolationsViewController.swift */,
+				F6DCE810219A141C00B82BD6 /* TransferViewController.swift */,
 				F69883942188C6EA001F77ED /* Main.storyboard */,
 				F698839A2188C6EC001F77ED /* Assets.xcassets */,
 				F698839C2188C6EC001F77ED /* LaunchScreen.storyboard */,
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69883932188C6EA001F77ED /* ViewController.swift in Sources */,
+				F6DCE811219A141C00B82BD6 /* TransferViewController.swift in Sources */,
+				F69883C22188C801001F77ED /* PersistenceService.swift in Sources */,
+				F6DCE80F219A13D900B82BD6 /* ViolationsViewController.swift in Sources */,
 				F69883912188C6EA001F77ED /* AppDelegate.swift in Sources */,
 				F69883992188C6EA001F77ED /* Tatl.xcdatamodeld in Sources */,
 			);
@@ -439,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HNYHGKKDCT;
 				INFOPLIST_FILE = Tatl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HNYHGKKDCT;
 				INFOPLIST_FILE = Tatl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
