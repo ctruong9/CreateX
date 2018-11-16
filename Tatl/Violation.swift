@@ -9,5 +9,6 @@
 import UIKit
 
 class Violation: NSObject {
-    
+    weak var image: UIImage!
+    weak var video: AVPlayer!
 }
