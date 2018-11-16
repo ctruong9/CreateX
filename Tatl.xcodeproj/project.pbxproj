@@ -16,6 +16,7 @@
 		F69883A92188C6EC001F77ED /* TatlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883A82188C6EC001F77ED /* TatlTests.swift */; };
 		F69883B42188C6EC001F77ED /* TatlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883B32188C6EC001F77ED /* TatlUITests.swift */; };
 		F69883C22188C801001F77ED /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69883C12188C801001F77ED /* PersistenceService.swift */; };
+		F6AC6610219E2A5A005518CD /* Violation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC660F219E2A5A005518CD /* Violation.swift */; };
 		F6DCE80F219A13D900B82BD6 /* ViolationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCE80E219A13D900B82BD6 /* ViolationsViewController.swift */; };
 		F6DCE811219A141C00B82BD6 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCE810219A141C00B82BD6 /* TransferViewController.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		F69883B32188C6EC001F77ED /* TatlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatlUITests.swift; sourceTree = "<group>"; };
 		F69883B52188C6EC001F77ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F69883C12188C801001F77ED /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		F6AC660F219E2A5A005518CD /* Violation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violation.swift; sourceTree = "<group>"; };
 		F6DCE80E219A13D900B82BD6 /* ViolationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolationsViewController.swift; sourceTree = "<group>"; };
 		F6DCE810219A141C00B82BD6 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 				F69883902188C6EA001F77ED /* AppDelegate.swift */,
 				F69883C12188C801001F77ED /* PersistenceService.swift */,
 				F69883922188C6EA001F77ED /* ViewController.swift */,
+				F6AC660F219E2A5A005518CD /* Violation.swift */,
 				F6DCE80E219A13D900B82BD6 /* ViolationsViewController.swift */,
 				F6DCE810219A141C00B82BD6 /* TransferViewController.swift */,
 				F69883942188C6EA001F77ED /* Main.storyboard */,
@@ -272,6 +275,7 @@
 				F6DCE811219A141C00B82BD6 /* TransferViewController.swift in Sources */,
 				F69883C22188C801001F77ED /* PersistenceService.swift in Sources */,
 				F6DCE80F219A13D900B82BD6 /* ViolationsViewController.swift in Sources */,
+				F6AC6610219E2A5A005518CD /* Violation.swift in Sources */,
 				F69883912188C6EA001F77ED /* AppDelegate.swift in Sources */,
 				F69883992188C6EA001F77ED /* Tatl.xcdatamodeld in Sources */,
 			);
